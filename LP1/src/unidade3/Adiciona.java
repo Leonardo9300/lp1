@@ -9,7 +9,7 @@ public class Adiciona {
 		Scanner entrada = new Scanner(System.in);
 
 		// Define variáveis
-		int numero1, numero2, soma;
+		int numero1, numero2;
 
 		System.out.println("Entre o primeiro inteiro: ");  // Prompt
 		numero1 = entrada.nextInt();  //Lê o primeiro número
@@ -19,6 +19,8 @@ public class Adiciona {
 		
 		// Exibe a soma
 		System.out.printf("A soma é %d%n", numero1 + numero2);
+		
+		entrada.close();
 
 	}
 
